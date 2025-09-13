@@ -1,0 +1,47 @@
+/* Google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-blueColor: #473bf0;
+  --color-greenColor: #68d585;
+  --color-redColor: #f64b4b;
+  --color-titleColor: #161c2d;
+  --color-textColor: #595e6b;
+  --color-bgColor: #f4f7fa;
+  --font-poppin: "Poppins", sans-serif;
+  --font-montsrate: "Montserrat", sans-serif;
+  --breakpoint-sm: 30rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-xxl: 96rem;
+}
+
+@layer base {
+  body {
+    @apply text-base  leading-8 tracking-[-0.2px];
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-3  text-white text-xs  rounded-lg font-montsrate capitalize font-semibold cursor-pointer bg-redColor transition-all duration-500 hover:bg-blueColor hover:opacity-85;
+  }
+}
+
+@layer utilities {
+  /* .rotate-15 {
+    transform: rotate(15deg);
+  } */
+}
+
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+  background: red;
+  opacity: 1;
+}

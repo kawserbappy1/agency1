@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi Purpose Agency Template</title>
+    <link rel="shortcut icon" href="./images/shadepro.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./output.css" />
+    <!-- swiper js file  -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Icon link  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- HEADER AREA START  -->
+    <header class="bg-bgColor bg-[url('./images/banner/Bitmap.png')] bg-no-repeat bg-cover bg-center">
+      <div class="fixed top-0 left-0 w-full z-50">
+        <nav class="max-w-[1280px] mx-auto flex justify-between items-center h-20 px-2 lg:px-0">
+          <!-- logo and menu area  -->
+          <div class="flex items-center gap-20">
+            <!-- logo area  -->
+            <a href="#">
+              <h2 class="text-titleColor font-montsrate font-bold text-[28px]">
+                Brainwave.<span class="text-redColor">io</span>
+              </h2>
+            </a>
+            <!-- menu area  -->
+            <div
+              id="menu"
+              class="absolute top-0 -left-[100%] bg-blueColor w-full min-h-[100vh] px-20 duration-500 ease-in-out overflow-hidden z-50 lg:static lg:min-h-fit lg:bg-transparent lg:w-auto lg:px-0"
+            >
+              <ul class="flex flex-col lg:flex-row gap-6 pt-20 lg:pt-0">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="active nav_link text-base font-bold text-white lg:text-titleColor font-montsrate pb-1 ease-in-out group-hover:text-redColor duration-500 relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[2px] before:bg-redColor before:transition-all before:duration-500 hover:before:w-1/2 after:content-[''] after:absolute after:right-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-500 hover:after:w-1/2 lg:after:bg-blueColor"
+                    ><i
+                      class="ri-home-2-line text-base text-redColor ease-in-out duration-500 group-hover:text-white lg:group-hover:text-blueColor mr-1 lg:hidden"
+                    ></i>
+                    Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#services"
+                    class="nav_link text-base font-bold text-white lg:text-titleColor font-montsrate pb-1 ease-in-out group-hover:text-redColor duration-500 relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[2px] before:bg-redColor before:transition-all before:duration-500 hover:before:w-1/2 after:content-[''] after:absolute after:right-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-500 hover:after:w-1/2 lg:after:bg-blueColor"
+                    ><i
+                      class="ri-settings-2-line text-base text-redColor ease-in-out duration-500 group-hover:text-white lg:group-hover:text-blueColor mr-1 lg:hidden"
+                    ></i>
+                    Services</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#story"
+                    class="nav_link text-base font-bold text-white lg:text-titleColor font-montsrate pb-1 ease-in-out group-hover:text-redColor duration-500 relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[2px] before:bg-redColor before:transition-all before:duration-500 hover:before:w-1/2 after:content-[''] after:absolute after:right-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-500 hover:after:w-1/2 lg:after:bg-blueColor"
+                    ><i
+                      class="ri-pen-nib-line text-base text-redColor ease-in-out duration-500 group-hover:text-white lg:group-hover:text-blueColor mr-1 lg:hidden"
+                    ></i>
+                    Story</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#features"
+                    class="nav_link text-base font-bold text-white lg:text-titleColor font-montsrate pb-1 ease-in-out group-hover:text-redColor duration-500 relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[2px] before:bg-redColor before:transition-all before:duration-500 hover:before:w-1/2 after:content-[''] after:absolute after:right-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-500 hover:after:w-1/2 lg:after:bg-blueColor"
+                  >
+                    <i
+                      class="ri-eye-close-line text-base text-redColor ease-in-out duration-500 group-hover:text-white lg:group-hover:text-blueColor mr-1 lg:hidden"
+                    ></i>
+                    Features</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#case"
+                    class="nav_link text-base font-bold text-white lg:text-titleColor font-montsrate pb-1 ease-in-out group-hover:text-redColor duration-500 relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[2px] before:bg-redColor before:transition-all before:duration-500 hover:before:w-1/2 after:content-[''] after:absolute after:right-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-500 hover:after:w-1/2 lg:after:bg-blueColor"
+                    ><i
+                      class="ri-page-separator text-base text-redColor ease-in-out duration-500 group-hover:text-white lg:group-hover:text-blueColor mr-1 lg:hidden"
+                    ></i>
+                    Case Study</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#tetimonial"
+                    class="nav_link text-base font-bold text-white lg:text-titleColor font-montsrate pb-1 ease-in-out group-hover:text-redColor duration-500 relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[2px] before:bg-redColor before:transition-all before:duration-500 hover:before:w-1/2 after:content-[''] after:absolute after:right-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-500 hover:after:w-1/2 lg:after:bg-blueColor"
+                    ><i
+                      class="ri-git-repository-line text-base text-redColor ease-in-out duration-500 group-hover:text-white lg:group-hover:text-blueColor mr-1 lg:hidden"
+                    ></i>
+                    Tetimonial</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#Contact"
+                    class="nav_link text-base font-bold text-white lg:text-titleColor font-montsrate pb-1 ease-in-out group-hover:text-redColor duration-500 relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[2px] before:bg-redColor before:transition-all before:duration-500 hover:before:w-1/2 after:content-[''] after:absolute after:right-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all after:duration-500 hover:after:w-1/2 lg:after:bg-blueColor"
+                    ><i
+                      class="ri-contacts-book-3-fill text-base text-redColor ease-in-out duration-500 group-hover:text-white lg:group-hover:text-blueColor mr-1 lg:hidden"
+                    ></i>
+                    Contact</a
+                  >
+                </li>
+              </ul>
+              <div
+                id="close"
+                class="absolute top-10 right-10 text-white text-4xl hover:text-redColor cursor-pointer ease-in-out duration-500 lg:hidden"
+              >
+                <i class="ri-close-fill"></i>
+              </div>
+            </div>
+          </div>
+          <!-- menu button area  -->
+          <div class="flex gap-10">
+            <button class="btn hidden md:block">Get started a project</button>
+            <div id="mobile" class="text-3xl cursor-pointer bg-blueColor p-2 text-white rounded-md lg:hidden">
+              <i class="ri-menu-3-line"></i>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- HEADER AREA END  -->
+      <!-- BANNER AREA START  -->
+      <section class="max-w-[1280px] mx-auto pb-25 pt-40 px-2">
+        <div class="flex flex-col items-center gap-10 md:flex-row-reverse">
+          <div class="relative max-w-lg flex-1">
+            <img src="./images/banner/Oval.png" alt="" class="w-full relative z-20" />
+
+            <img src="./images/banner/Fill 1.png" alt="" class="absolute top-0 left-10" />
+            <img src="./images/banner/round.png" alt="" class="absolute bottom-0 left-10 z-30 w-28" />
+            <img src="./images/banner/waves.png" alt="" class="absolute bottom-0 right-20 z-30" />
+          </div>
+          <div class="flex-1">
+            <h4 class="text-redColor text-xs font-bold tracking-[1.625px]">Let’s shift your business</h4>
+            <h1
+              class="text-titleColor text-4xl lg:text-6xl font-bold font-montsrate leading-[48px] md:leading-[65px] tracking-[-2px] py-6"
+            >
+              Shift your business fast with Shade Pro.
+            </h1>
+            <p class="text-textColor text-lg leading-[32px] tracking-[-0.2px]">
+              With lots of unique blocks, you can easily build a page without coding. Build your next consultancy
+              website within few minutes.
+            </p>
+            <button class="btn mt-10">Get started a project</button>
+          </div>
+        </div>
+      </section>
+      <!-- BANNER AREA END  -->
+    </header>
+    <main>
+      <!-- SERVICE AREA START  -->
+      <section id="services" class="max-w-[1280px] mx-auto py-25 px-2 md:px-4 lg:px-4 relative">
+        <div class="text-center">
+          <h3 class="text-sm uppercase font-bold font-montsrate text-redColor sm:text-lg md:text-xl">Our services</h3>
+          <h2 class="text-titleColor font-bold font-montsrate text-2xl md:text-3xl">
+            We provide great services for our <br class="hidden sm:inline-block" />
+            customers based on needs
+          </h2>
+        </div>
+        <div class="flex flex-col gap-10 my-10 md:flex-row md:gap-4 lg:gap-10">
+          <!-- 1st services  -->
+          <div class="bg-greenColor p-10 text-center rounded-md shadow-2xl">
+            <img src="./images/service/Designer.png" alt="" class="mx-auto" />
+            <h3 class="text-2xl font-bold font-montsrate text-white leading-[34px] py-4">Graphic Design</h3>
+            <p class="text-base leading-[28px] text-white font-poppin">
+              With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+            </p>
+            <a href="#" class="text-base leading-[28px] font-bold mt-8 inline-block text-white"
+              >Learn more <i class="ri-arrow-right-line ml-5"></i
+            ></a>
+          </div>
+          <!-- 2nd services  -->
+          <div class="bg-blueColor p-10 text-center rounded-md shadow-2xl">
+            <img src="./images/service/Programming.png" alt="" class="mx-auto" />
+            <h3 class="text-2xl font-bold font-montsrate text-white leading-[34px] py-4">Web Development</h3>
+            <p class="text-base leading-[28px] text-white font-poppin">
+              With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+            </p>
+            <a href="#" class="text-base leading-[28px] font-bold mt-8 inline-block text-white"
+              >Learn more <i class="ri-arrow-right-line ml-5"></i
+            ></a>
+          </div>
+          <!-- 3rd services  -->
+          <div class="bg-redColor p-10 text-center rounded-md shadow-2xl">
+            <img src="./images/service/Notes.png" alt="" class="mx-auto" />
+            <h3 class="text-2xl font-bold font-montsrate text-white leading-[34px] py-4">Content Writing</h3>
+            <p class="text-base leading-[28px] text-white font-poppin">
+              With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+            </p>
+            <a href="#" class="text-base leading-[28px] font-bold mt-8 inline-block text-white"
+              >Learn more <i class="ri-arrow-right-line ml-5"></i
+            ></a>
+          </div>
+        </div>
+        <img src="./images/service/Group.png" alt="" class="absolute bottom-20 right-5 -z-10 hidden lg:block" />
+      </section>
+      <!-- SERVICE AREA END  -->
+      <!-- DEVELOPER REVIEW AREA START -->
+      <section class="ctr-swiper max-w-[1280px] mx-auto pb-10 px-2 md:px-4 lg:px-4">
+        <div class="swiper dev-review">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="text-center grid md:grid-cols-3 md:text-start">
+                <div class="md:col-span-1">
+                  <img src="./images/developer/Oval.png" alt="" class="mx-auto" />
+                </div>
+                <div class="md:col-span-2">
+                  <div class="">
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                  </div>
+                  <p class="text-2xl text-titleColor font-bold leading-[34px] font-poppin">
+                    “OMG! I cannot believe that I have got a brand new landing page after getting Albino. It was super
+                    easy to edit and publish.”
+                  </p>
+                  <h4 class="text-redColor text-base font-bold leading-[29px]">Franklin Hicks</h4>
+                  <h6 class="text-textColor text-base">Web Developer</h6>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center grid md:grid-cols-3 md:text-start">
+                <div class="md:col-span-1">
+                  <img src="./images/developer/Oval.png" alt="" class="mx-auto" />
+                </div>
+                <div class="md:col-span-2">
+                  <div class="">
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                  </div>
+                  <p class="text-2xl text-titleColor font-bold leading-[34px] font-poppin">
+                    “OMG! I cannot believe that I have got a brand new landing page after getting Albino. It was super
+                    easy to edit and publish.”
+                  </p>
+                  <h4 class="text-redColor text-base font-bold leading-[29px]">Franklin Hicks</h4>
+                  <h6 class="text-textColor text-base">Web Developer</h6>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center grid md:grid-cols-3 md:text-start">
+                <div class="md:col-span-1">
+                  <img src="./images/developer/Oval.png" alt="" class="mx-auto" />
+                </div>
+                <div class="md:col-span-2">
+                  <div class="">
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                  </div>
+                  <p class="text-2xl text-titleColor font-bold leading-[34px] font-poppin">
+                    “OMG! I cannot believe that I have got a brand new landing page after getting Albino. It was super
+                    easy to edit and publish.”
+                  </p>
+                  <h4 class="text-redColor text-base font-bold leading-[29px]">Franklin Hicks</h4>
+                  <h6 class="text-textColor text-base">Web Developer</h6>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center grid md:grid-cols-3 md:text-start">
+                <div class="md:col-span-1">
+                  <img src="./images/developer/Oval.png" alt="" class="mx-auto" />
+                </div>
+                <div class="md:col-span-2">
+                  <div class="">
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                    <i class="ri-star-fill text-[#fcad38]"></i>
+                  </div>
+                  <p class="text-2xl text-titleColor font-bold leading-[34px] font-poppin">
+                    “OMG! I cannot believe that I have got a brand new landing page after getting Albino. It was super
+                    easy to edit and publish.”
+                  </p>
+                  <h4 class="text-redColor text-base font-bold leading-[29px]">Franklin Hicks</h4>
+                  <h6 class="text-textColor text-base">Web Developer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!-- DEVELOPER REVIEW AREA END -->
+      <!-- STORY AREA START  -->
+      <section id="story" class="max-w-[1280px] mx-auto py-25 px-2 md:px-4 lg:px-4">
+        <div class="mb-12">
+          <h3 class="text-sm mb-6 uppercase font-bold font-montsrate text-redColor sm:text-lg md:text-xl">Our Story</h3>
+          <h2 class="text-titleColor font-bold font-montsrate text-2xl max-w-md md:text-3xl">
+            We know how everything works and why your business is failing over and over again.
+          </h2>
+        </div>
+        <div class="grid grid-cols-12 space-y-10 sm:space-y-16 text-center md:gap-5 lg:gap-10">
+          <div class="col-span-12 md:col-span-5 max-w-xs sm:max-w-sm lg:max-w-lg mx-auto overflow-hidden md:mt-25">
+            <img src="./images/story/male.png" alt="" class="w-full" />
+          </div>
+          <div class="col-span-12 md:col-span-5 lg:max-w-lg relative text-start">
+            <div class="relative max-w-xs mx-auto lg:mx-0">
+              <img src="./images/story/female.png" alt="" class="w-full" />
+              <img src="./images/story/Fill.png" alt="" class="hidden sm:inline-block absolute -top-10 -right-10" />
+            </div>
+            <p class="text-base text-textColor font-poppin mt-10 lg:mt-25">
+              We share common trends and strategies for improving your rental income and making sure you stay in high
+              demand. With lots of unique blocks, you can easily build a page without coding. Build your next landing
+              page.
+            </p>
+            <img
+              src="./images/story/female1.png"
+              alt=""
+              class="hidden md:inline-block absolute top-20 -right-30 w-40"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="max-w-[1280px] mx-auto px-2 pb-25 md:px-4 lg:px-4">
+        <div class="flex flex-col gap-10 md:flex-row">
+          <div class="text-center">
+            <h2 class="text-titleColor text-5xl font-bold font-montsrate leading-[58px] tracking-[-1.8px] mb-8">1M+</h2>
+            <p class="text-textColor text-xl leading-[32px] font-poppin">
+              Customers visit Omega every month to get their service done.
+            </p>
+          </div>
+          <div class="text-center">
+            <h2 class="text-titleColor text-5xl font-bold font-montsrate leading-[58px] tracking-[-1.8px] mb-8">92%</h2>
+            <p class="text-textColor text-xl leading-[32px] font-poppin">
+              Satisfaction rate comes from our awesome customers.
+            </p>
+          </div>
+          <div class="text-center">
+            <h2 class="text-titleColor text-5xl font-bold font-montsrate leading-[58px] tracking-[-1.8px] mb-8">
+              4.9/5.0
+            </h2>
+            <p class="text-textColor text-xl leading-[32px] font-poppin">
+              Average customer ratings we have got all over internet.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- STORY AREA END  -->
+      <!-- CHOOSE AREA START  -->
+      <section id="features" class="py-25 px-2 md:px-4 lg:px-4 bg-bgColor relative">
+        <div class="max-w-[1280px] mx-auto">
+          <div class="max-w-xl mx-auto text-center">
+            <h3 class="text-sm mb-6 uppercase font-bold font-montsrate text-redColor sm:text-lg md:text-xl">
+              why choose us
+            </h3>
+            <h2 class="text-titleColor font-bold font-montsrate text-2xl md:text-3xl">
+              We know how everything works and why your business is failing over and over again.
+            </h2>
+          </div>
+          <div class="grid gap-10 pt-20 grid-cols-1 md:grid-cols-2 group">
+            <div class="flex space-x-4 items-start shadow-2xl p-6 rounded-xl">
+              <div
+                class="flex-shrink-0 h-20 w-20 bg-[#E3E4F9] grid place-items-center text-3xl text-blueColor rounded-xl"
+              >
+                <i class="ri-user-3-line"></i>
+              </div>
+              <div class="">
+                <h3 class="text-xl font-bold leading-[32px] text-titleColor font-montsrate mb-2">
+                  Dedicated project manager
+                </h3>
+                <p class="text-textColor text-base leading-[28px] font-poppin">
+                  With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+                </p>
+              </div>
+            </div>
+            <div class="flex space-x-4 items-start shadow-2xl p-6 rounded-xl">
+              <div
+                class="flex-shrink-0 h-20 w-20 bg-[#F4E6E9] grid place-items-center text-3xl text-redColor rounded-xl"
+              >
+                <i class="ri-stack-line"></i>
+              </div>
+              <div class="">
+                <h3 class="text-xl font-bold leading-[32px] text-titleColor mb-2 font-montsrate">Organized tasks</h3>
+                <p class="text-textColor text-base leading-[28px] font-poppin">
+                  With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+                </p>
+              </div>
+            </div>
+            <div class="flex space-x-4 items-start shadow-2xl p-6 rounded-xl">
+              <div
+                class="flex-shrink-0 h-20 w-20 bg-[#E6F4EE] grid place-items-center text-3xl text-greenColor rounded-xl"
+              >
+                <i class="ri-chat-1-line"></i>
+              </div>
+              <div class="">
+                <h3 class="text-xl font-bold leading-[32px] text-titleColor mb-2 font-montsrate">
+                  Easy feedback sharing
+                </h3>
+                <p class="text-textColor text-base leading-[28px] font-poppin">
+                  With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+                </p>
+              </div>
+            </div>
+            <div class="flex space-x-4 items-start shadow-2xl p-6 rounded-xl">
+              <div
+                class="flex-shrink-0 h-20 w-20 bg-[#DEE1E5] grid place-items-center text-3xl text-gray-400 rounded-xl"
+              >
+                <i class="ri-timer-flash-fill"></i>
+              </div>
+              <div class="">
+                <h3 class="text-xl font-bold leading-[32px] text-titleColor mb-2 font-montsrate">
+                  Easy feedback sharing
+                </h3>
+                <p class="text-textColor text-base leading-[28px] font-poppin">
+                  With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+                </p>
+              </div>
+            </div>
+            <img src="./images/chose/Group 161.png" alt="" class="hidden md:block absolute top-40 -left-2" />
+          </div>
+        </div>
+
+        <div
+          class="max-w-[1280px] mx-auto flex flex-col justify-between items-center pt-20 mt-30 border-t-2 border-t-[#E7E9ED] gap-10 md:flex-row"
+        >
+          <div>
+            <h2 class="text-titleColor text-3xl font-bold leading-[44px] mb-5">Ready to launch your next project?</h2>
+            <p class="text-xl text-textColor leading-[32px] max-w-md">
+              With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+            </p>
+          </div>
+          <div class="flex-shrink-0">
+            <button class="btn">Get started a project</button>
+          </div>
+        </div>
+      </section>
+      <!-- CHOOSE AREA END  -->
+      <!-- CASE STUDY AREA START  -->
+      <section class="max-w-[1280px] mx-auto px-2 py-25 md:px-4 lg:px-4">
+        <div class="max-w-xl mx-auto text-center mb-10">
+          <h3 class="text-sm mb-6 uppercase font-bold font-montsrate text-redColor sm:text-lg md:text-xl">
+            Case studies
+          </h3>
+          <h2 class="text-titleColor font-bold font-montsrate text-2xl md:text-3xl">
+            Our works describe why we are the best in the business
+          </h2>
+        </div>
+
+        <div class="columns-1 md:columns-2 gap-6 space-y-6">
+          <div class="pt-5 break-inside-avoid group overflow-hidden">
+            <img src="./images/case/Img.png" alt="" class="w-full ease-in-out duration-500 group-hover:scale-115" />
+            <p class="font-poppin text-lg text-textColor leading-[26px] pt-7 ml-5">Graphic Design</p>
+            <h3 class="text-2xl text-titleColor font-montsrate font-bold leading-[34px] ml-5">Aura Branding Design</h3>
+          </div>
+          <div class="pt-5 break-inside-avoid group overflow-hidden">
+            <img src="./images/case/Img1.png" alt="" class="w-full ease-in-out duration-500 group-hover:scale-115" />
+            <p class="font-poppin text-lg text-textColor leading-[26px] pt-7 ml-5">Graphic Design</p>
+            <h3 class="text-2xl text-titleColor font-montsrate font-bold leading-[34px] ml-5">Aura Branding Design</h3>
+          </div>
+          <div class="pt-5 break-inside-avoid group overflow-hidden">
+            <img src="./images/case/Img2.jpg" alt="" class="w-full ease-in-out duration-500 group-hover:scale-115" />
+            <p class="font-poppin text-lg text-textColor leading-[26px] pt-7 ml-5">Graphic Design</p>
+            <h3 class="text-2xl text-titleColor font-montsrate font-bold leading-[34px] ml-5">Aura Branding Design</h3>
+          </div>
+          <div class="pt-5 break-inside-avoid group overflow-hidden">
+            <img src="./images/case/Img3.png" alt="" class="w-full ease-in-out duration-500 group-hover:scale-115" />
+            <p class="font-poppin text-lg text-textColor leading-[26px] pt-7 ml-5">Graphic Design</p>
+            <h3 class="text-2xl text-titleColor font-montsrate font-bold leading-[34px] ml-5">Aura Branding Design</h3>
+          </div>
+          <a
+            href="#"
+            class="mt-15 inline-block text-blueColor text-xl font-bold ease-in-out hover:translate-y-1 duration-700"
+            >See all works <i class="ri-arrow-right-line"></i
+          ></a>
+        </div>
+      </section>
+      <!-- CASE STUDY AREA END  -->
+      <!-- TETIMONIAL AREA START  -->
+      <section class="bg-blueColor bg-[url('./images/clients/group47.png')] bg-no-repeat bg-cover bg-center py-25">
+        <div class="max-w-[1280px] mx-auto">
+          <div class="swiper reviews">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="text-center">
+                  <h4 class="text-greenColor text-xs font-bold font-poppin tracking-[1.625px] uppercase">
+                    Testimonial
+                  </h4>
+                  <h2 class="max-w-lg text-white text-3xl font-bold leading-[44px] tracking-[-1.2px] mx-auto py-4">
+                    “Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced
+                    users.”
+                  </h2>
+                  <div>
+                    <img src="./images/clients/Oval.png" alt="" class="mx-auto" />
+                    <h3 class="text-white text-lg font-bold font-poppin leading-[29px] tracking-[-0.2px]">Ian Klein</h3>
+                    <p class="text-textColor text-xs font-bold">Digital Marketer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="text-center">
+                  <h4 class="text-greenColor text-xs font-bold font-poppin tracking-[1.625px] uppercase">
+                    Testimonial
+                  </h4>
+                  <h2 class="max-w-lg text-white text-3xl font-bold leading-[44px] tracking-[-1.2px] mx-auto py-4">
+                    “Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced
+                    users.”
+                  </h2>
+                  <div>
+                    <img src="./images/clients/Oval.png" alt="" class="mx-auto" />
+                    <h3 class="text-white text-lg font-bold font-poppin leading-[29px] tracking-[-0.2px]">Ian Klein</h3>
+                    <p class="text-textColor text-xs font-bold">Digital Marketer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="text-center">
+                  <h4 class="text-greenColor text-xs font-bold font-poppin tracking-[1.625px] uppercase">
+                    Testimonial
+                  </h4>
+                  <h2 class="max-w-lg text-white text-3xl font-bold leading-[44px] tracking-[-1.2px] mx-auto py-4">
+                    “Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced
+                    users.”
+                  </h2>
+                  <div>
+                    <img src="./images/clients/Oval.png" alt="" class="mx-auto" />
+                    <h3 class="text-white text-lg font-bold font-poppin leading-[29px] tracking-[-0.2px]">Ian Klein</h3>
+                    <p class="text-textColor text-xs font-bold">Digital Marketer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="text-center">
+                  <h4 class="text-greenColor text-xs font-bold font-poppin tracking-[1.625px] uppercase">
+                    Testimonial
+                  </h4>
+                  <h2 class="max-w-lg text-white text-3xl font-bold leading-[44px] tracking-[-1.2px] mx-auto py-4">
+                    “Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced
+                    users.”
+                  </h2>
+                  <div>
+                    <img src="./images/clients/Oval.png" alt="" class="mx-auto" />
+                    <h3 class="text-white text-lg font-bold font-poppin leading-[29px] tracking-[-0.2px]">Ian Klein</h3>
+                    <p class="text-textColor text-xs font-bold">Digital Marketer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="text-center">
+                  <h4 class="text-greenColor text-xs font-bold font-poppin tracking-[1.625px] uppercase">
+                    Testimonial
+                  </h4>
+                  <h2 class="max-w-lg text-white text-3xl font-bold leading-[44px] tracking-[-1.2px] mx-auto py-4">
+                    “Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced
+                    users.”
+                  </h2>
+                  <div>
+                    <img src="./images/clients/Oval.png" alt="" class="mx-auto" />
+                    <h3 class="text-white text-lg font-bold font-poppin leading-[29px] tracking-[-0.2px]">Ian Klein</h3>
+                    <p class="text-textColor text-xs font-bold">Digital Marketer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- TETIMONIAL AREA END  -->
+    </main>
+    <!-- FOTTER AREA START  -->
+    <footer class="px-2 py-25 md:px-4 lg:px-4 bg-titleColor">
+      <div class="max-w-[1280px] mx-auto">
+        <div class="flex flex-col justify-between items-center gap-10 md:flex-row">
+          <div>
+            <h2 class="text-white text-3xl font-bold leading-[44px] mb-5">Ready to launch your next project?</h2>
+            <p class="text-xl text-textColor leading-[32px] max-w-md">
+              With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+            </p>
+          </div>
+          <div class="flex-shrink-0">
+            <button class="btn">Get started a project</button>
+          </div>
+        </div>
+
+        <div class="pt-50 flex flex-col text-center md:flex-row gap-10">
+          <div class="flex-1">
+            <h2 class="text-white font-montsrate font-bold text-[28px]">
+              Brainwave.<span class="text-redColor">io</span>
+            </h2>
+            <p class="text-base text-textColor leading-[26px] font-poppin">
+              With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+            </p>
+            <div class="flex gap-2 text-white mt-10">
+              <i
+                class="ri-twitter-x-line cursor-pointer ease-in-out duration-700 hover:text-greenColor hover:-translate-y-2"
+              ></i>
+              <i
+                class="ri-facebook-fill cursor-pointer ease-in-out duration-700 hover:text-greenColor hover:-translate-y-2"
+              ></i>
+              <i
+                class="ri-instagram-line cursor-pointer ease-in-out duration-700 hover:text-greenColor hover:-translate-y-2"
+              ></i>
+              <i
+                class="ri-linkedin-fill cursor-pointer ease-in-out duration-700 hover:text-greenColor hover:-translate-y-2"
+              ></i>
+            </div>
+          </div>
+          <div class="flex-1 flex gap-20 justify-center">
+            <div>
+              <h2 class="text-base text-white font-bold mb-5">Company</h2>
+              <ul>
+                <li><a href="#" class="text-textColor text-lg">About us</a></li>
+                <li><a href="#" class="text-textColor text-lg">Contact us</a></li>
+                <li><a href="#" class="text-textColor text-lg">Careers</a></li>
+                <li><a href="#" class="text-textColor text-lg">Press</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="text-base text-white font-bold mb-5">Product</h2>
+              <ul>
+                <li><a href="#" class="text-textColor text-lg">Features</a></li>
+                <li><a href="#" class="text-textColor text-lg">Pricing</a></li>
+                <li><a href="#" class="text-textColor text-lg">News</a></li>
+                <li><a href="#" class="text-textColor text-lg">Help desk</a></li>
+                <li><a href="#" class="text-textColor text-lg">Support</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex-1 flex gap-20 justify-center">
+            <div>
+              <h2 class="text-base text-white font-bold mb-5">Services</h2>
+              <ul>
+                <li><a href="#" class="text-textColor text-lg">Digital Marketing</a></li>
+                <li><a href="#" class="text-textColor text-lg">Content Writing</a></li>
+                <li><a href="#" class="text-textColor text-lg">SEO for Business</a></li>
+                <li><a href="#" class="text-textColor text-lg">UI Design</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="text-base text-white font-bold mb-5">Legal</h2>
+              <ul>
+                <li><a href="#" class="text-textColor text-lg">Privacy Policy</a></li>
+                <li><a href="#" class="text-textColor text-lg">Terms & Conditions</a></li>
+                <li><a href="#" class="text-textColor text-lg">Return Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOTTER AREA END  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
