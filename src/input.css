@@ -20,6 +20,9 @@
 }
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
   body {
     @apply text-base  leading-8 tracking-[-0.2px];
   }
@@ -29,19 +32,16 @@
   .btn {
     @apply px-4 py-3  text-white text-xs  rounded-lg font-montsrate capitalize font-semibold cursor-pointer bg-redColor transition-all duration-500 hover:bg-blueColor hover:opacity-85;
   }
+  .active {
+    @apply text-white;
+  }
+  .bgHeader {
+    @apply bg-white shadow-md;
+  }
 }
 
 @layer utilities {
   /* .rotate-15 {
     transform: rotate(15deg);
   } */
-}
-
-.swiper-pagination-bullet {
-  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
-  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
-  display: inline-block;
-  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
-  background: red;
-  opacity: 1;
 }
